@@ -37,22 +37,39 @@ const Player = () => {
             <p>{Time.totalTime.minute}:{Time.totalTime.second}</p>
           </div>
           </div>
-          <div className="hidden lg:flex items-center gap-2 opacity-75">
-            <img src={assets.play_icon} alt="" className="w-4" />
-            <img src={assets.mic_icon} alt="" className="w-4" />
-            <img src={assets.queue_icon} alt="" className="w-4" />
-            <img src={assets.speaker_icon} alt="" className="w-4" />
-            <img src={assets.volume_icon} alt="" className="w-4" />
-            <div className="w-20 bg-slate-50 h-1 rounded"></div>
-            <img src={assets.mini_player_icon} alt="" className="w-4" />
-            <img src={assets.zoom_icon} alt="" className="w-4" />
-            
-          </div>
+   <div className="hidden lg:flex items-center gap-4 opacity-75">
+
+  <img src={assets.play_icon} alt="" className="w-4 cursor-pointer" />
+  <img src={assets.mic_icon} alt="" className="w-4 cursor-pointer" />
+  <img src={assets.queue_icon} alt="" className="w-4 cursor-pointer" />
+  <img src={assets.speaker_icon} alt="" className="w-4 cursor-pointer" />
+
+  {/* Volume + Branding */}
+  <div className="relative flex items-center">
+
+    {/* Volume icon + bar (same line) */}
+    <div className="flex items-center gap-2">
+      <img src={assets.volume_icon} alt="" className="w-4 cursor-pointer" />
+      <div className="w-24 bg-slate-50 h-1 rounded"></div>
+    </div>
+
+    {/* Text below bar */}
+<span className="absolute top-full mt-1 left-1/2 -translate-x-[30%] text-[10px] text-gray-400 whitespace-nowrap">
+
+      Made by <span className="text-green-500 font-semibold">Divakar</span>
+    </span>
+
+  </div>
+
+  <img src={assets.mini_player_icon} alt="" className="w-4 cursor-pointer" />
+  <img src={assets.zoom_icon} alt="" className="w-4 cursor-pointer" />
+
+</div>
+              
         
       
     </div>
   );
 };
-
 export default Player;
 

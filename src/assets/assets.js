@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -115,68 +120,13 @@ export const albumsData = [
 ]
 
 export const songsData = [
-    {
-        id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
-    },
-    {
-        id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
-    },
-    {
-        id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
-    },
-    {
-        id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
-    },
-    {
-        id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
-    },
-    {
-        id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
-    },
-    {
-        id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
-    }
-]
+    { id: 0, name: "Neni Nani Ne", image: img1, file: song1, desc: "Romantic", duration: "3:00" },
+    { id: 1, name: "Krishna Krishna", image: img2, file: song2, desc: "Devotional", duration: "2:20" },
+    { id: 2, name: "Ordinary Person", image: img3, file: song3, desc: "Motivational", duration: "2:32" },
+    { id: 3, name: "Jolly O Gymkhana", image: img4, file: song4, desc: "Party Hit", duration: "2:50" },
+    { id: 4, name: "Hukum", image: img5, file: song5, desc: "Mass Anthem", duration: "3:10" },
+    { id: 5, name: "MS-DHONI", image: img6, file: song6, desc: "Inspiration", duration: "2:45" },
+    { id: 6, name: "Ramayan", image: img7, file: song7, desc: "Spiritual", duration: "2:18" },
+    { id: 7, name: "BELIEVER", image: img8, file: song8, desc: "Power Song", duration: "2:35" }
+];
+
